@@ -124,7 +124,6 @@ line-height: 1.5;
 
 .post-author img, about-author img {
   border-radius: 50%;
-  width: 100px;
 }
 
 .post-container:nth-child(even) {
