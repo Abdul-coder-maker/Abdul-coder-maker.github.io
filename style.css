@@ -71,11 +71,12 @@ color: white;
 
 a {
   color: #1abc9c;
-  text-decoration:
+  text-decoration: none;
 }
 
 a:hover {
   color: #F6A623;
+  text-decoration: underline;
 }
 
 .post {
