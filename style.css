@@ -76,7 +76,7 @@ a {
 
 a:hover {
   color: #F6A623;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .post {
