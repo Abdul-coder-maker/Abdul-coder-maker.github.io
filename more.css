@@ -35,7 +35,11 @@ body {
   /* border: white 1px solid; */
   margin: 0 auto;
   margin-top: 5%;
-  padding: 0 5rem;
+}
+@media (min-width: 500px) {
+  .grid-projects {
+     padding: 0 5rem;
+  }
 }
 .project {
   -webkit-box-shadow: 0 0 5px 5px rgb(206, 203, 203);
