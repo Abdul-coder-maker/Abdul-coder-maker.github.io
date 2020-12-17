@@ -100,9 +100,12 @@ footer p {
 }
 footer p,
 .footer-more li a {
-  background: linear-gradient(rgb(240, 123, 56), yellow);
-  color: transparent;
-  background-clip: text;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(240, 123, 56)), to(yellow));
+background: -o-linear-gradient(rgb(240, 123, 56), yellow);
+background: linear-gradient(rgb(240, 123, 56), yellow);
+color: transparent;
+-webkit-background-clip: text;
+        background-clip: text;
 }
 .footer-more {
   letter-spacing: 0.02em;
