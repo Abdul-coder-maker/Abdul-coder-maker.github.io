@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  color: whitesmoke;
+  font-family: monospace;
+  margin-bottom: 10px !important;
+}
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+.grid-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(5rem, 1fr));
+  grid-gap: 2rem;
+  /* border: white 1px solid; */
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 0 5rem;
+}
+.project {
+  box-shadow: 0 0 5px 5px rgb(206, 203, 203);
+}
+.body h1 {
+  text-transform: uppercase;
+  font-size: 350%;
+}
+.body {
+  width: 100%;
+  z-index: 999;
+  position: relative;
+  background-color: brown;
+  color: white;
+  padding: 5rem 0.99rem;
+  text-align: center;
+}
+nav {
+  display: flex;
+  width: 100vw;
+  background-color: rgb(22, 243, 243);
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 300 !important;
+}
+
+a p {
+  height: 20%;
+}
+img {
+  height: 80%;
+  max-width: 100%;
+  display: block;
+}
+
+.media {
+  height: auto;
+  background-color: #13c7c7;
+  position: fixed;
+  right: 20px;
+  bottom: 25px;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand {
+  margin-right: 5px;
+}
+.link-media {
+  color: gold;
+  letter-spacing: 0.09rem;
+  font-size: 130%;
+}
+footer {
+  height: unset !important;
+  margin-top: auto;
+  padding: 1.9rem;
+  position: relative;
+  background: linear-gradient(to right, purple, red);
+}
+footer p::before {
+  content: "<";
+}
+footer p::after {
+  content: "/>";
+}
+footer p {
+  font-size: 50px;
+}
+footer p,
+.footer-more li a {
+  background: linear-gradient(rgb(240, 123, 56), yellow);
+  color: transparent;
+  background-clip: text;
+}
+.footer-more {
+  letter-spacing: 0.02em;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 20px;
+}
+@media (max-width: 440px) {
+  nav {
+    display: block;
+    text-align: center;
+    height: 300px;
+  }
+  #nav-list {
+    font-size: 15px;
+    margin: 0 auto;
+  }
+  .one,
+  .two {
+    border-bottom: 2px dashed white;
+  }
+}
+
+.fab {
+  margin-right: 5px;
+}
+@media (min-width: 800px) {
+  .img-header {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
