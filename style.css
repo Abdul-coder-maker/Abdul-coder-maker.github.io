@@ -196,7 +196,6 @@ strong {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
 }
 
 #nav-h h2 {
@@ -204,7 +203,8 @@ strong {
   animation-delay: 1s;
   margin-left: 0.1em;
   font-family: "Galada", cursive;
-  font-size: 210%;
+  font-size: 40px;
+  font-weight: var(--fw-bold);
 }
 @media (min-width: 846px) {
   #nav-h h2 {
@@ -336,7 +336,7 @@ border-right: 3px solid;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 0 5rem;
+  padding: 0 3rem;
 }
 
 .grid {
@@ -579,10 +579,6 @@ a {
 }
 
 @media (max-width: 415px) {
-  #nav-h {
-    width: unset;
-    margin-top: 5px;
-  }
   .contact-links {
     -ms-flex-pack: distribute;
     justify-content: space-around;
@@ -603,6 +599,10 @@ a {
   }
 }
 @media (max-width: 699px) {
+  #nav-h {
+    width: unset;
+    margin-top: 5px;
+  }
   #navbar {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -630,6 +630,9 @@ a {
   }
   .contact-h {
     font-size: 2rem;
+  }
+  #nav-h {
+    width: 50%;
   }
 }
 .project-tile {
