@@ -292,6 +292,7 @@ main {
 
 @media (min-width: 500px) {
   .welcome-con {
+    min-width: 120ch;
 -webkit-animation: typing 3s steps(40), blink 0.5s step-end infinite alternate;
         animation: typing 3s steps(40), blink 0.5s step-end infinite alternate;
 white-space: nowrap;
