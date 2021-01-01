@@ -276,7 +276,6 @@ main {
   -webkit-box-direction: normal;
   -ms-flex-flow: column wrap;
   flex-flow: column wrap;
-  font-family: "Galada", cursive;
 }
 @keyframes welcome-section {
   from {
