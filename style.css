@@ -293,8 +293,8 @@ main {
 @media (min-width: 500px) {
   .welcome-con {
     width: 90%;
--webkit-animation: typing 2s steps(40), blink 0.5s step-end infinite alternate;
-        animation: typing 2s steps(40), blink 0.5s step-end infinite alternate;
+-webkit-animation: typing 2s steps(45), blink 0.5s step-end infinite alternate;
+        animation: typing 2s steps(45), blink 0.5s step-end infinite alternate;
 white-space: nowrap;
 overflow: hidden;
 border-right: 3px solid;
