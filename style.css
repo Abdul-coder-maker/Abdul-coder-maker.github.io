@@ -455,7 +455,7 @@ button:focus {
 footer {
   background-color: #36508d;
   text-align: center;
-  height: 10rem;
+  padding-top: 1rem;
   margin-top: auto;
   display: flex;
   flex-direction: column;
